@@ -5,6 +5,7 @@ import Layout from '../Layout';
 import Home from '../components/Home';
 import Signup from '../components/Signup';
 import Signin from '../components/Signin';
+import EveryRecipe from '../components/EveryRecipe';
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: '/signin',
         element: <Signin></Signin>,
+      },
+      {
+        path: '/every-recipe',
+        element: <EveryRecipe></EveryRecipe>,
       },
     ],
   },
