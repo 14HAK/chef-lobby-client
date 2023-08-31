@@ -25,10 +25,10 @@ const Header = () => {
         <Navbar.Brand href='https://flowbite.com/'>
           <div className='relative'>
             <NavLink to='/'>
-              <img className='pl-5 w-25' src={React} alt='website-icon-logo' />
-              <span className='absolute top-12 left-12 font-extrabold text-xl text-red-600'>
+              <img className='pl-5 w-24' src={React} alt='website-icon-logo' />
+              {/* <span className='absolute top-12 left-12 font-extrabold text-xl text-red-600'>
                 CHEFlobby
-              </span>
+              </span> */}
             </NavLink>
           </div>
         </Navbar.Brand>

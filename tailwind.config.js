@@ -8,5 +8,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [import('flowbite/plugin'), require('tailwindcss-animated')],
+  plugins: [import('flowbite/plugin'), require("daisyui"), require('tailwindcss-animated')],
 };
