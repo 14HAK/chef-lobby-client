@@ -42,7 +42,7 @@ export const router = createBrowserRouter([
         ),
         loader: async ({ params }) => {
           return await fetch(
-            `http://localhost:3000/recipes_person/everyrecipes/${params.id}`,
+            `https://chef-lobby-server.vercel.app/recipes_person/everyrecipes/${params.id}`,
             {
               method: 'POST',
               headers: {

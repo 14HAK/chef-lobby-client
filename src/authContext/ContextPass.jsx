@@ -23,7 +23,9 @@ const ContextPass = ({ children }) => {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch('http://localhost:3000/recipes_person');
+      const res = await fetch(
+        'https://chef-lobby-server.vercel.app/recipes_person'
+      );
       const data = await res.json();
       setRecipeData(data);
     }
